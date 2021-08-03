@@ -17,11 +17,33 @@ has been restored.
 * `Node.js`
 * `npm (Node Package Manager)`
 * `Javascript`
-* `MongoDB`
+* `Mongo Atlas`
 * `Mongoose`
 * `Express.js`
 * `Compression`
 * `Morgan`
+* `indexedDb`
+
+
+## 📸 Screenshots
+
+**MAIN PAGE**
+
+> The main image below shows the application with it's saved values along with a chart showing the balance. This data is written to a Mongo Atlas database in the cloud. 
+
+![mainImage](./public/images/main.jpg)
+
+**OFFLINE PAGES**
+
+> When the application detects that it's offline, then all transactions are stored in the browser inside of indexedDb as shown below. 
+
+![offlinemage](./public/images/offline.jpg)
+
+> While offline, the Mongo Atlas db will not have a record of the last 2 transactions shown on the previous screenshot. Once the application comes back online, these transactions are transferred to Mongo Atlas and the indexedDb in the browser is cleared out. 
+
+![mongoofflinemage](./public/images/mongoOffline.jpg)
+
+![mongoofflinemage](./public/images/mongoOnline.jpg)
 
 
 ## 🔗 Application Links
